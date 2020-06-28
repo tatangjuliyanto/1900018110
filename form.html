@@ -4,66 +4,68 @@
 	<title></title>
 </head>
 <body>
-	<form action="" method="post">
+	<div>
+	<div align="center"><strong><font color="white" size="20" face="geramond, gill sans, cambria"></font></strong></div>
+	<form action="proses.php" method="post">
 		<hr>
 		<center>
 		<h1   width="180" align="cols">Formulir Biodata Diri</h1>
 		<table border="0">
 		</center>
-		<tr>
-			<td>Nama </td>
-			<td>:</td>
-			<td><input type="text" name="Nama" size="25" placeholder="masukan nama anda" ="" /></td>
-		</tr>
-		<tr>
-			<td>Alamat</td>
-			<td>:</td>
-			<td><input type="text" name="Alamat" size="30" placeholder="masukan alamat" ="" /></td>
-		</tr>
-		<tr>
-			<td>Telp </td>
-			<td>:</td>
-			<td><input type="text" name="Nama" size="20" placeholder="masukan no telp." ="" /></td>
-		</tr>
-		
-			<tr>
-				<td>Jenis Kelamin</td>
-				<td>:</td>
-				<td><input type="checkbox" name="Kelamin" value="Laki-laki" />
-				Laki-Laki
-				<input type="checkbox" name="Kelamin" value="Perempuan" />
-				Perempuan</td>
-				</tr>
-			<tr>
-				<td>Agama</td>
-				<td>:</td>
-				<td><select name="select">
-				<option>Islam</option>
-				<option>Kristen Protestan</option>
-				<option>Kristen Khatolik</option>
-				<option>Hindu</option>
-				<option>Budha</option>
-			</td>
-			</tr>
-			</tr>
-			<tr>
-				<td valign="top">Hobby anda</td>
-				<td valign="top">:</td>
-				<td valign="top"><textarea cols="20" rows="1"></textarea></td>
-				</tr>
-				
-			<tr>
-				<td valign="top">Prestasi yang pernah diraih</td>
-				<td valign="top">:</td>
-				<td valign="top"><textarea cols="20" rows="5" placeholder="text area"></textarea></td>
+		<center>
+			<table>
+				<tr>
+					<td>Nama Lengkap</td>
+					<td><input type="text" name="nama" id="nama"></td>
 				</tr>
 				<tr>
-					<td colspan="2"></td>
-					<td><input type="Submit" name="Simpan" /><input type="reset" name="Batal" /></td>
+					<td>Alamat</td>
+					<td><textarea name="alamat" id="alamat"></textarea></td>
 				</tr>
+					<tr>
+					<td>telp</td>
+					<td><input type="text" name="alamat" id="telp"></td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin</td>
+					<td><select name="kelamin" id="kelamin">
+						<option>-Pilih-</option>
+						<option>Laki-laki</option>
+						<option>Perempuan</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td>Agama</td>
+					<td><select name="agama" id="agama">
+						<option>-pilih-</option>
+						<option>Islam</option>
+						<option>Kristen</option>
+						<option>Khatolik</option>
+						<option>Hindu</option>
+						<option>Budha</option>
+						</select>
+					</td>
+				</tr>
+
+			<tr>
+				<td>Hobby</td>
+				<td><textarea name="hobi" id="hobi"></textarea></td>
+			</tr>
+			<tr>
+				<td>Prestasi yang pernah diraih</td>
+				<td><textarea name="prestasi" id="prestasi"></textarea></td>
+			</tr>
+			<tr>
+				<td>
+					<button type="submit" name="Submit" class="btn btn-primary">Submit</button>
+					<button type="reset" name="Submit2" class="btn btn-danger">Reset</button>
+				</td>
+			</tr>
 		</table>
-		</form>
-		<body>
+	</center>
+</form>
+</div>
+
 
 </body>
 </html>
