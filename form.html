@@ -2,14 +2,15 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div>
-	<div align="center"><strong><font color="white" size="20" face="geramond, gill sans, cambria"></font></strong></div>
+	<div class="badan" align="center"><strong><font color="white" size="20" face="geramond, gill sans, cambria"></font></strong></div>
 	<form action="proses.php" method="post">
 		<hr>
 		<center>
-		<h1   width="180" align="cols">Formulir Biodata Diri</h1>
+		<h1   width="180" align="cols">Form Pendaftaran Tim esport Mobile Legend</h1>
 		<table border="0">
 		</center>
 		<center>
@@ -18,14 +19,10 @@
 					<td>Nama Lengkap</td>
 					<td><input type="text" name="nama" id="nama"></td>
 				</tr>
-				<tr>
-					<td>Alamat</td>
-					<td><textarea name="alamat" id="alamat"></textarea></td>
-				</tr>
-					<tr>
-					<td>telp</td>
-					<td><input type="text" name="alamat" id="telp"></td>
-				</tr>
+				  <tr>
+			        <td>Nick & Id akun</td>
+			        <td><input size="40" name="id" type="text" id="id"></td>
+			       </tr>
 				<tr>
 					<td>Jenis Kelamin</td>
 					<td><select name="kelamin" id="kelamin">
@@ -35,21 +32,21 @@
 					</select></td>
 				</tr>
 				<tr>
-					<td>Agama</td>
-					<td><select name="agama" id="agama">
+					<td>Role/user</td>
+					<td><select name="role" id="role">
 						<option>-pilih-</option>
-						<option>Islam</option>
-						<option>Kristen</option>
-						<option>Khatolik</option>
-						<option>Hindu</option>
-						<option>Budha</option>
+						<option>Tanker</option>
+						<option>Support</option>
+						<option>Assasin</option>
+						<option>Marksman</option>
+						<option>Figter</option>
 						</select>
 					</td>
 				</tr>
 
 			<tr>
-				<td>Hobby</td>
-				<td><textarea name="hobi" id="hobi"></textarea></td>
+				<td>Alamat lengkap & no.telp</td>
+				<td><textarea name="no" id="no"></textarea></td>
 			</tr>
 			<tr>
 				<td>Prestasi yang pernah diraih</td>
@@ -57,8 +54,8 @@
 			</tr>
 			<tr>
 				<td>
-					<button type="submit" name="Submit" class="btn btn-primary">Submit</button>
-					<button type="reset" name="Submit2" class="btn btn-danger">Reset</button>
+					<button type="submit" name="Submit" class="submit">Submit</button>
+					<button type="reset" name="Submit2" class="reset">Reset</button>
 				</td>
 			</tr>
 		</table>
