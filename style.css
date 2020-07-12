@@ -1,0 +1,30 @@
+body{
+	background: url('mobile.png ') no-repeat fixed;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	color: 000000;
+}
+div.badan{
+ font-family: sans-serif;
+    color: #B22222;
+    border-collapse: collapse;
+}
+button.tombol{
+	background-color: #00FF00;
+}
+.submit{
+	background-color: #00FF00;
+}
+.reset{
+	background-color: #FF4500;
+}
+.center{
+}
+	color: #FF4500;
+}
+
+
+
+}
